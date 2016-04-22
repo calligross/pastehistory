@@ -1,0 +1,4 @@
+Name: Paste from history
+Description: Paste last command from history
+Binding: pastehistory
+Interactive: false

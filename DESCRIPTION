@@ -1,0 +1,11 @@
+Package: pastehistory
+Type: Package
+Title: paste from history
+Version: 0.1.0
+Author: Calli Gross
+Maintainer: Calli Gross <yourfault@somewhere.net>
+Description: A simple add-in to paste the last console command into the active
+    context.
+License: GPL v3
+LazyData: TRUE
+RoxygenNote: 5.0.1
