@@ -1,6 +1,3 @@
-#' @import rstudioapi
-#' @name pastehistory
-
 pastehistory <- function() {
   tmphistory <- tempfile()
   savehistory(tmphistory)
@@ -9,6 +6,6 @@ pastehistory <- function() {
   close.connection(histcon)
   last <- length(history)
   last_command <- history[last]
-  rstudioapi::insertText(last_command)
+  insertText(last_command)
 }
 
